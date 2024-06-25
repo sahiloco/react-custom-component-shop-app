@@ -1,0 +1,195 @@
+.saveUpTo {
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+}
+.discount {
+  border-radius: var(--br-11xs);
+  background-color: var(--secondary-500);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) var(--padding-2xs);
+  white-space: nowrap;
+}
+.macbookPro {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--display-03-size);
+  line-height: 56px;
+  font-weight: 600;
+  font-family: inherit;
+  color: var(--gray-900);
+}
+.heading {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.appleM3Max {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--body-xxl-400-size);
+  line-height: 32px;
+  font-weight: 400;
+  font-family: inherit;
+  color: var(--gray-900);
+}
+.label {
+  position: relative;
+  font-size: var(--label-02-size);
+  letter-spacing: 0.01em;
+  line-height: 56px;
+  text-transform: uppercase;
+  display: inline-block;
+  font-family: var(--body-small-400);
+  color: var(--gray-00);
+  text-align: left;
+  min-width: 91px;
+}
+.regulararrowrightIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: 0 var(--padding-13xl);
+  background-color: var(--primary-500);
+  border-radius: var(--br-10xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xs);
+  white-space: nowrap;
+}
+.button:hover {
+  background-color: var(--color-chocolate-100);
+}
+.content,
+.macbookWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.content {
+  align-self: stretch;
+  gap: var(--gap-3xl);
+}
+.macbookWrapper {
+  width: 424px;
+  padding: 0 0 var(--padding-29xl);
+  box-sizing: border-box;
+  min-width: 424px;
+  min-height: 344px;
+  max-width: 100%;
+}
+.imageIcon {
+  height: 424px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.percentage {
+  position: relative;
+  line-height: 28px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 61px;
+  white-space: nowrap;
+}
+.discount1 {
+  height: 122px;
+  width: 122px;
+  margin: 0 !important;
+  position: absolute;
+  top: 40px;
+  left: -22px;
+  border-radius: var(--br-981xl);
+  background-color: var(--primary-200);
+  border: 6px solid var(--gray-00);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-22xl) var(--padding-5xl) var(--padding-22xl)
+    var(--padding-6xl);
+  z-index: 1;
+}
+.banner,
+.macbookImageContainer {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.macbookImageContainer {
+  width: 536px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  min-width: 536px;
+  font-size: var(--body-xl-600-size);
+  color: var(--gray-900);
+}
+.banner {
+  align-self: stretch;
+  background-color: var(--primary-100);
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 0 var(--padding-27xl) 0 var(--padding-53xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--body-small-400-size);
+  color: var(--gray-00);
+  font-family: var(--body-small-400);
+}
+@media screen and (max-width: 1225px) {
+  .imageIcon,
+  .macbookImageContainer,
+  .macbookWrapper {
+    flex: 1;
+  }
+  .banner {
+    flex-wrap: wrap;
+    padding-left: var(--padding-17xl);
+    padding-right: var(--padding-4xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 850px) {
+  .macbookPro {
+    font-size: var(--font-size-19xl);
+    line-height: 45px;
+  }
+  .macbookImageContainer,
+  .macbookWrapper {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .macbookPro {
+    font-size: var(--font-size-10xl);
+    line-height: 34px;
+  }
+  .appleM3Max {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+  .percentage {
+    font-size: var(--label-02-size);
+    line-height: 22px;
+  }
+}

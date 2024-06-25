@@ -1,0 +1,57 @@
+.image10Icon {
+  height: 32px;
+  width: 76.1px;
+  position: relative;
+  object-fit: cover;
+}
+.paymentMethodTopRow {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-22xl) 0 var(--padding-23xl);
+}
+.razorpay {
+  align-self: stretch;
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+}
+.paymentMethodRows {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.fromElements {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  border-radius: var(--br-81xl);
+  background-color: var(--gray-00);
+  border: 1px solid var(--gray-200);
+  box-sizing: border-box;
+}
+.paymentMethodBottomRow,
+.paymentMethodItems {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.paymentMethodBottomRow {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-51xl);
+}
+.paymentMethodItems {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-base);
+  min-width: 104px;
+  text-align: center;
+  font-size: var(--body-small-400-size);
+  color: var(--gray-900);
+  font-family: var(--body-small-400);
+}

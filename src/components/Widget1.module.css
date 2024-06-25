@@ -1,0 +1,105 @@
+.image4Icon {
+  height: 160px;
+  width: 160px;
+  position: relative;
+  object-fit: contain;
+}
+.xiaomiFlipbudsPro {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 32px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.info,
+.usd {
+  align-self: stretch;
+}
+.usd {
+  position: relative;
+  font-size: var(--body-large-500-size);
+  line-height: 24px;
+  font-weight: 600;
+  color: var(--secondary-500);
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.label {
+  position: relative;
+  font-size: var(--body-small-400-size);
+  letter-spacing: 0.01em;
+  line-height: 48px;
+  text-transform: uppercase;
+  display: inline-block;
+  font-family: var(--body-small-400);
+  color: var(--gray-00);
+  text-align: left;
+  min-width: 80px;
+}
+.regulararrowrightIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: 0 var(--padding-5xl);
+  background-color: var(--primary-500);
+  border-radius: var(--br-11xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+  white-space: nowrap;
+}
+.button:hover {
+  background-color: var(--color-chocolate-100);
+}
+.content,
+.widget {
+  display: flex;
+  gap: var(--gap-xl);
+}
+.content {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 112px;
+}
+.widget {
+  align-self: stretch;
+  border-radius: var(--br-7xs);
+  background-color: var(--gray-50);
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-21xl) var(--padding-21xl) var(--padding-21xl)
+    var(--padding-13xl);
+  text-align: left;
+  font-size: var(--body-xxl-400-size);
+  color: var(--gray-900);
+  font-family: var(--body-small-400);
+}
+@media screen and (max-width: 450px) {
+  .image4Icon {
+    flex: 1;
+  }
+  .xiaomiFlipbudsPro {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+  .widget {
+    flex-wrap: wrap;
+  }
+}

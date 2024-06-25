@@ -1,0 +1,196 @@
+.hot {
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 99px;
+}
+.badge {
+  border-radius: var(--br-11xs);
+  background-color: var(--secondary-500);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) var(--padding-xs);
+}
+.homepodMini,
+.newApple {
+  margin: 0;
+}
+.newAppleHomepodContainer {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--heading-01-size);
+  line-height: 40px;
+  font-weight: 600;
+  font-family: inherit;
+  color: var(--gray-900);
+}
+.heading {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.jamPackedWithInnovation {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--label-02-size);
+  line-height: 24px;
+  color: var(--gray-700);
+}
+.content1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.label {
+  position: relative;
+  font-size: var(--body-small-400-size);
+  letter-spacing: 0.01em;
+  line-height: 48px;
+  text-transform: uppercase;
+  display: inline-block;
+  font-family: var(--body-small-400);
+  color: var(--gray-00);
+  text-align: left;
+  min-width: 80px;
+}
+.regulararrowrightIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: 0 var(--padding-5xl);
+  background-color: var(--primary-500);
+  border-radius: var(--br-11xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+  white-space: nowrap;
+}
+.button:hover {
+  background-color: var(--color-chocolate-100);
+}
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  min-width: 182px;
+}
+.image6Icon {
+  height: 240px;
+  width: 240px;
+  position: relative;
+  object-fit: contain;
+}
+.banner {
+  flex: 0.9272;
+  border-radius: var(--br-9xs);
+  background-color: var(--gray-50);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-25xl);
+  box-sizing: border-box;
+  gap: var(--gap-21xl);
+  min-width: 421px;
+  max-width: 100%;
+  z-index: 1;
+}
+.bannerContainer,
+.bannerItem {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.bannerItem {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+}
+.bannerContainer {
+  align-self: stretch;
+  padding: 0 var(--padding-40xl);
+  box-sizing: border-box;
+}
+.bannerContainer,
+.bannerWrapper,
+.bannerWrapperWrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.bannerWrapper {
+  width: 1438px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-31xl);
+}
+.bannerWrapperWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--body-small-400-size);
+  color: var(--gray-00);
+  font-family: var(--body-small-400);
+}
+@media screen and (max-width: 1225px) {
+  .banner {
+    flex: 1;
+  }
+  .bannerItem {
+    flex-wrap: wrap;
+  }
+  .bannerContainer {
+    padding-left: var(--padding-10xl);
+    padding-right: var(--padding-10xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 850px) {
+  .newAppleHomepodContainer {
+    font-size: var(--font-size-7xl);
+    line-height: 32px;
+  }
+  .image6Icon {
+    flex: 1;
+  }
+  .banner {
+    flex-wrap: wrap;
+    gap: var(--gap-xl);
+    padding-left: var(--padding-3xl);
+    padding-right: var(--padding-3xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .bannerWrapper {
+    gap: var(--gap-6xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .newAppleHomepodContainer {
+    font-size: var(--font-size-lgi);
+    line-height: 24px;
+  }
+}

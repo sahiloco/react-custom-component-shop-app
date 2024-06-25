@@ -1,0 +1,43 @@
+.country,
+.select {
+  position: relative;
+  line-height: 20px;
+}
+.country {
+  align-self: stretch;
+}
+.select {
+  display: inline-block;
+  min-width: 54px;
+}
+.regularcaretdownIcon {
+  width: 16px;
+  height: 16px;
+  position: relative;
+}
+.dropdownCaret {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.dropdown {
+  align-self: stretch;
+  gap: var(--gap-xl);
+  color: var(--gray-400);
+}
+.countryZipDropdowns {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  min-width: 190px;
+  max-width: 206px;
+  text-align: left;
+  font-size: var(--body-small-400-size);
+  color: var(--gray-900);
+  font-family: var(--body-small-400);
+}

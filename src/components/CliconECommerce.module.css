@@ -1,0 +1,95 @@
+.clicon,
+.icon {
+  position: relative;
+}
+.icon {
+  height: 48px;
+  width: 48px;
+}
+.clicon {
+  margin: 0;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 40px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 121px;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.customerSupports,
+.supportNumber {
+  align-self: stretch;
+  position: relative;
+  line-height: 20px;
+}
+.supportNumber {
+  font-size: var(--body-large-500-size);
+  line-height: 24px;
+  font-weight: 500;
+  color: var(--gray-00);
+}
+.phoneNumber {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  font-size: var(--body-small-400-size);
+}
+.washingtonAveManchester {
+  width: 248px;
+  position: relative;
+  line-height: 24px;
+  color: var(--gray-300);
+  display: inline-block;
+}
+.infokinbocom {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+  color: var(--gray-00);
+  white-space: nowrap;
+}
+.cliconEcommerce,
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.contactInfo {
+  align-self: stretch;
+  gap: var(--gap-xs);
+  font-size: var(--label-02-size);
+  color: var(--gray-500);
+}
+.cliconEcommerce {
+  flex: 1;
+  gap: var(--gap-5xl);
+  min-width: 203px;
+  text-align: left;
+  font-size: var(--heading-01-size);
+  color: var(--gray-00);
+  font-family: var(--body-small-400);
+}
+@media screen and (max-width: 800px) {
+  .clicon {
+    font-size: var(--font-size-7xl);
+    line-height: 32px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .clicon {
+    font-size: var(--font-size-lgi);
+    line-height: 24px;
+  }
+}

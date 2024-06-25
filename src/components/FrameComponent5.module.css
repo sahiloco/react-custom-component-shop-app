@@ -1,0 +1,197 @@
+.searchForAnything {
+  width: calc(100% - 50px);
+  border: 0;
+  outline: 0;
+  font-family: var(--body-small-400);
+  font-size: var(--body-small-400-size);
+  background-color: transparent;
+  height: 20px;
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+  color: var(--gray-500);
+  text-align: left;
+  display: inline-block;
+  min-width: 150px;
+  max-width: calc(100% - 28px);
+  padding: 0;
+}
+.regularmagnifyingglassIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  min-height: 20px;
+}
+.search {
+  width: 424px;
+  border-radius: var(--br-11xs);
+  background-color: var(--gray-00);
+  border: 1px solid var(--gray-100);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-mini);
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.sortBy {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 51px;
+}
+.sortByWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0 0;
+}
+.goodMorning {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 87px;
+}
+.regularcaretdownIcon {
+  width: 16px;
+  height: 16px;
+  position: relative;
+}
+.regularcaretdownWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.dropdown,
+.frameParent,
+.productName {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.dropdown {
+  flex: 1;
+  border-radius: var(--br-11xs);
+  background-color: var(--gray-00);
+  border: 1px solid var(--gray-100);
+  overflow: hidden;
+  justify-content: space-between;
+  padding: var(--padding-3xs) var(--padding-mid) var(--padding-3xs)
+    var(--padding-mini);
+  gap: var(--gap-xl);
+  color: var(--gray-700);
+}
+.frameParent,
+.productName {
+  width: 253px;
+  justify-content: flex-start;
+  gap: var(--gap-3xl);
+}
+.productName {
+  width: 1004px;
+  justify-content: space-between;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.activeFilters1,
+.wingChair {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+}
+.activeFilters1 {
+  color: var(--gray-600);
+  min-width: 89px;
+}
+.wingChair {
+  min-width: 127px;
+}
+.duotonexIcon {
+  height: 12px;
+  width: 12px;
+  position: relative;
+}
+.activeFilters2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.wingChair1 {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 87px;
+}
+.duotonexIcon1 {
+  height: 12px;
+  width: 12px;
+  position: relative;
+}
+.activeFilters,
+.activeFilters3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.activeFilters {
+  gap: var(--gap-base);
+  max-width: 100%;
+}
+.span {
+  font-weight: 600;
+}
+.resultsFound1 {
+  color: var(--gray-600);
+}
+.resultsFound {
+  position: relative;
+  line-height: 20px;
+}
+.activeFiltersResults,
+.filterBar {
+  align-self: stretch;
+  display: flex;
+  max-width: 100%;
+}
+.activeFiltersResults {
+  border-radius: var(--br-9xs);
+  background-color: var(--gray-50);
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-xs) var(--padding-5xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+}
+.filterBar {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--body-small-400-size);
+  color: var(--gray-900);
+  font-family: var(--body-small-400);
+}
+@media screen and (max-width: 850px) {
+  .activeFiltersResults,
+  .productName {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .activeFilters {
+    flex-wrap: wrap;
+  }
+}

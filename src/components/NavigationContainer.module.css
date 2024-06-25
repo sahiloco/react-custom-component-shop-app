@@ -1,0 +1,171 @@
+.regularhouseIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  min-height: 20px;
+}
+.home {
+  text-decoration: none;
+  position: relative;
+  line-height: 20px;
+  color: inherit;
+  display: inline-block;
+  min-width: 39px;
+}
+.regularcaretrightIcon {
+  width: 12px;
+  height: 12px;
+  position: relative;
+}
+.regularcaretrightWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+}
+.shop {
+  align-self: stretch;
+  width: 41px;
+  position: relative;
+  line-height: 20px;
+  display: none;
+}
+.regularcaretrightIcon1 {
+  height: 12px;
+  width: 12px;
+  position: relative;
+  display: none;
+}
+.shopGrid {
+  align-self: stretch;
+  width: 65px;
+  position: relative;
+  line-height: 20px;
+  display: none;
+}
+.regularcaretrightIcon2 {
+  height: 12px;
+  width: 12px;
+  position: relative;
+  display: none;
+}
+.shopGrid1 {
+  align-self: stretch;
+  width: 127px;
+  position: relative;
+  line-height: 20px;
+  display: none;
+}
+.regularcaretrightIcon3 {
+  height: 12px;
+  width: 12px;
+  position: relative;
+  display: none;
+}
+.shopGrid2 {
+  align-self: stretch;
+  width: 65px;
+  position: relative;
+  line-height: 20px;
+  display: none;
+}
+.regularcaretrightIcon4 {
+  height: 12px;
+  width: 12px;
+  position: relative;
+  display: none;
+}
+.shopGrid3 {
+  align-self: stretch;
+  width: 65px;
+  position: relative;
+  line-height: 20px;
+  display: none;
+}
+.regularcaretrightIcon5 {
+  height: 12px;
+  width: 12px;
+  position: relative;
+  display: none;
+}
+.shopGrid4 {
+  align-self: stretch;
+  width: 77px;
+  position: relative;
+  line-height: 20px;
+  display: none;
+}
+.regularcaretrightIcon6 {
+  height: 12px;
+  width: 12px;
+  position: relative;
+  display: none;
+}
+.behicleAccessories {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+  color: var(--secondary-500);
+  display: inline-block;
+  min-width: 90px;
+}
+.breadcrumb,
+.breadcumb,
+.navigationContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.breadcumb {
+  flex-direction: row;
+  gap: var(--gap-5xs);
+}
+.breadcrumb,
+.navigationContainer {
+  align-self: stretch;
+}
+.breadcrumb {
+  background-color: var(--gray-50);
+  flex-direction: row;
+  padding: var(--padding-7xl) var(--padding-281xl);
+  flex-shrink: 0;
+  z-index: 1;
+  margin-top: -27.5px;
+  font-size: var(--body-small-400-size);
+  color: var(--gray-600);
+}
+.navigationContainer {
+  height: 292px;
+  flex-direction: column;
+  padding: var(--padding-201xl) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--body-xxl-400-size);
+  color: var(--gray-00);
+  font-family: var(--body-small-400);
+}
+@media screen and (max-width: 1300px) {
+  .navigationContainer {
+    height: auto;
+  }
+}
+@media screen and (max-width: 800px) {
+  .breadcrumb {
+    padding-left: var(--padding-131xl);
+    padding-right: var(--padding-131xl);
+    box-sizing: border-box;
+  }
+  .navigationContainer {
+    padding-top: var(--padding-124xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .breadcrumb {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,318 @@
+.orderSummery1 {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+}
+.orderSummaryHeader {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.mainImageIcon {
+  height: 60px;
+  width: 72px;
+  position: relative;
+  border-radius: var(--br-9xs);
+  object-fit: contain;
+}
+.appleMacbookPro {
+  align-self: stretch;
+}
+.appleMacbookPro,
+.div,
+.priceValue,
+.x {
+  position: relative;
+  line-height: 20px;
+}
+.div {
+  align-self: stretch;
+  width: 57px;
+  text-decoration: line-through;
+  display: none;
+  white-space: nowrap;
+}
+.priceValue,
+.x {
+  color: var(--gray-600);
+  display: inline-block;
+  min-width: 17px;
+}
+.priceValue {
+  font-weight: 600;
+  color: var(--secondary-500);
+  min-width: 43px;
+  white-space: nowrap;
+}
+.content,
+.price {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.price {
+  flex-direction: row;
+  gap: var(--gap-9xs);
+  color: var(--gray-400);
+}
+.content {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-7xs);
+  min-width: 192px;
+}
+.orderItem,
+.product {
+  align-self: stretch;
+  display: flex;
+  justify-content: center;
+}
+.product {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-base);
+}
+.orderItem {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-5xl);
+}
+.priceDetailValues,
+.subTotal {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 62px;
+}
+.priceDetailValues {
+  font-weight: 500;
+  color: var(--gray-900);
+  min-width: 42px;
+  white-space: nowrap;
+}
+.priceDetailLabels {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.free,
+.shipping {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 59px;
+}
+.free {
+  font-weight: 500;
+  color: var(--gray-900);
+  min-width: 30px;
+}
+.priceDetailLabels1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.discount,
+.div1 {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 58px;
+}
+.div1 {
+  font-weight: 500;
+  color: var(--gray-900);
+  min-width: 28px;
+  white-space: nowrap;
+}
+.priceDetailLabels2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.div2,
+.tax {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 24px;
+}
+.div2 {
+  font-weight: 500;
+  color: var(--gray-900);
+  min-width: 42px;
+  white-space: nowrap;
+}
+.content1,
+.priceDetailLabels3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.content1 {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-9xs);
+  gap: var(--gap-xs);
+}
+.totalDivider {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--gray-100);
+  box-sizing: border-box;
+}
+.total,
+.usd {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 38px;
+}
+.usd {
+  font-weight: 600;
+  min-width: 86px;
+}
+.totalPrice {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--label-02-size);
+  color: var(--gray-900);
+}
+.orderItems,
+.orderSummaryCalculation,
+.totalsBreakdown {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.totalsBreakdown {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-base-5);
+}
+.orderItems,
+.orderSummaryCalculation {
+  align-self: stretch;
+}
+.orderSummaryCalculation {
+  flex-direction: row;
+  padding: 0 var(--padding-9xs);
+  box-sizing: border-box;
+  color: var(--gray-600);
+}
+.orderItems {
+  flex-direction: column;
+  font-size: var(--body-small-400-size);
+}
+.label {
+  position: relative;
+  font-size: var(--label-02-size);
+  letter-spacing: 0.01em;
+  line-height: 56px;
+  text-transform: uppercase;
+  display: inline-block;
+  font-family: var(--body-small-400);
+  color: var(--gray-00);
+  text-align: left;
+  min-width: 115px;
+}
+.regulararrowrightIcon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+}
+.paymentButtonIcon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base) 0 0;
+}
+.button,
+.orderSummaryActions,
+.orderSummery {
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: 0 var(--padding-xl);
+  background-color: var(--primary-500);
+  flex: 1;
+  border-radius: var(--br-10xs);
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-xs);
+}
+.orderSummaryActions,
+.orderSummery {
+  justify-content: flex-start;
+}
+.orderSummaryActions {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-9xs);
+}
+.orderSummery {
+  width: 424px;
+  border-radius: var(--br-9xs);
+  background-color: var(--gray-00);
+  border: 1px solid var(--gray-100);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-lg) var(--padding-lgi) var(--padding-3xl);
+  gap: var(--gap-3xl);
+  min-width: 424px;
+  text-align: left;
+  font-size: var(--body-large-500-size);
+  color: var(--gray-900);
+  font-family: var(--body-small-400);
+}
+@media screen and (max-width: 1125px) {
+  .orderSummery {
+    flex: 1;
+  }
+}
+@media screen and (max-width: 800px) {
+  .orderSummery {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .priceDetailLabels,
+  .priceDetailLabels1,
+  .product,
+  .totalPrice {
+    flex-wrap: wrap;
+  }
+}

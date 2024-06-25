@@ -1,0 +1,223 @@
+.subscribeToOur {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 40px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.praesentFringillaErat {
+  width: 536px;
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.content,
+.praesentFringillaEratALaciWrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.praesentFringillaEratALaciWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  font-size: var(--label-02-size);
+  color: var(--color-gray-200);
+}
+.content {
+  width: 1320px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.input1,
+.label {
+  font-family: var(--body-small-400);
+}
+.input1 {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background-color: var(--gray-00);
+  height: 48px;
+  flex: 1;
+  border-radius: var(--br-11xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-base);
+  box-sizing: border-box;
+  font-size: var(--label-02-size);
+  color: var(--gray-500);
+  min-width: 276px;
+  max-width: 100%;
+}
+.label {
+  position: relative;
+  font-size: var(--body-small-400-size);
+  letter-spacing: 0.01em;
+  line-height: 48px;
+  text-transform: uppercase;
+  display: inline-block;
+  color: var(--gray-00);
+  text-align: left;
+  min-width: 84px;
+}
+.regulararrowrightIcon {
+  width: 20px;
+  height: 20px;
+  position: relative;
+}
+.button,
+.icon,
+.input,
+.inputField {
+  display: flex;
+  align-items: flex-start;
+}
+.icon {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-sm) 0 0;
+}
+.button,
+.input,
+.inputField {
+  flex-direction: row;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: 0 var(--padding-5xl);
+  background-color: var(--primary-500);
+  border-radius: var(--br-11xs);
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.input,
+.inputField {
+  max-width: 100%;
+}
+.inputField {
+  width: 624px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+  border-radius: var(--br-10xs);
+  background-color: var(--gray-00);
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: var(--padding-xs);
+  box-sizing: border-box;
+  gap: var(--gap-base);
+}
+.input {
+  width: 1320px;
+  justify-content: center;
+}
+.divider {
+  width: 425px;
+  height: 1px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  left: 64px;
+  border-top: 1px solid var(--gray-00);
+  box-sizing: border-box;
+  opacity: 0.12;
+}
+.brandIcon,
+.google20151Icon,
+.philips1Icon,
+.samsung41Icon,
+.toshiba11Icon {
+  height: 72px;
+  width: 72px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 72px;
+}
+.logo {
+  width: 100%;
+  margin: 0 !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  opacity: 0.6;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  height: 100%;
+}
+.companyLogo {
+  height: 72px;
+  width: 552px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.companyLogo,
+.logos,
+.newsletter {
+  display: flex;
+  max-width: 100%;
+}
+.logos {
+  width: 1320px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+.newsletter {
+  align-self: stretch;
+  background-color: var(--secondary-700);
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-53xl) var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-13xl);
+  z-index: 3;
+  text-align: center;
+  font-size: var(--heading-01-size);
+  color: var(--gray-00);
+  font-family: var(--body-small-400);
+}
+@media screen and (max-width: 850px) {
+  .subscribeToOur {
+    font-size: var(--font-size-7xl);
+    line-height: 32px;
+  }
+  .logo {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .companyLogo {
+    height: auto;
+    min-height: 72;
+  }
+  .newsletter {
+    gap: var(--gap-base);
+  }
+}
+@media screen and (max-width: 450px) {
+  .subscribeToOur {
+    font-size: var(--font-size-lgi);
+    line-height: 24px;
+  }
+  .newsletter {
+    padding-top: var(--padding-28xl);
+    padding-bottom: var(--padding-28xl);
+    box-sizing: border-box;
+  }
+}

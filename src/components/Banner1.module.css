@@ -1,0 +1,192 @@
+.hot {
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+}
+.badge {
+  border-radius: var(--br-11xs);
+  background-color: var(--warning-400);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) var(--padding-xs);
+  white-space: nowrap;
+}
+.gb256gb,
+.xiaomiMi11 {
+  margin: 0;
+}
+.xiaomiMi11Container {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--heading-01-size);
+  line-height: 40px;
+  font-weight: 600;
+  color: var(--gray-00);
+}
+.heading {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.dataProvidedBy {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--label-02-size);
+  line-height: 24px;
+  color: var(--gray-300);
+}
+.content1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.label {
+  position: relative;
+  font-size: var(--body-small-400-size);
+  letter-spacing: 0.01em;
+  line-height: 48px;
+  text-transform: uppercase;
+  display: inline-block;
+  font-family: var(--body-small-400);
+  color: var(--gray-00);
+  text-align: left;
+  min-width: 80px;
+}
+.regulararrowrightIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: 0 var(--padding-5xl);
+  background-color: var(--primary-500);
+  border-radius: var(--br-11xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+  white-space: nowrap;
+}
+.button:hover {
+  background-color: var(--color-chocolate-100);
+}
+.content,
+.xiaomiWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.content {
+  align-self: stretch;
+  gap: var(--gap-xl);
+}
+.xiaomiWrapper {
+  width: 280px;
+  padding: var(--padding-smi) 0 0;
+  box-sizing: border-box;
+}
+.imageIcon {
+  height: 349px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.percent {
+  position: relative;
+  line-height: 28px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 52px;
+  white-space: nowrap;
+}
+.banner,
+.discount,
+.xiaomiImageContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.discount {
+  height: 88px;
+  width: 88px;
+  margin: 0 !important;
+  position: absolute;
+  top: -7px;
+  right: 24px;
+  border-radius: var(--br-981xl);
+  background-color: var(--secondary-500);
+  padding: var(--padding-11xl) var(--padding-lg);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.banner,
+.xiaomiImageContainer {
+  flex: 1;
+}
+.xiaomiImageContainer {
+  position: relative;
+  font-size: var(--body-xl-600-size);
+  color: var(--gray-00);
+}
+.banner {
+  height: 336px;
+  border-radius: var(--br-9xs);
+  background-color: var(--gray-900);
+  overflow: hidden;
+  padding: var(--padding-12xl) 0 var(--padding-25xl) var(--padding-25xl);
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+  min-width: 421px;
+  max-width: 100%;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--body-small-400-size);
+  color: var(--gray-900);
+  font-family: var(--body-small-400);
+}
+@media screen and (max-width: 1225px) {
+  .banner {
+    flex: 1;
+  }
+}
+@media screen and (max-width: 850px) {
+  .xiaomiMi11Container {
+    font-size: var(--font-size-7xl);
+    line-height: 32px;
+  }
+  .banner {
+    padding-left: var(--padding-3xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .xiaomiMi11Container {
+    font-size: var(--font-size-lgi);
+    line-height: 24px;
+  }
+  .percent {
+    font-size: var(--label-02-size);
+    line-height: 22px;
+  }
+  .banner {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-10xl);
+    box-sizing: border-box;
+  }
+}

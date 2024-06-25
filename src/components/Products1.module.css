@@ -1,0 +1,12 @@
+.products {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--body-tiny-600-size);
+  color: var(--gray-00);
+  font-family: var(--body-small-400);
+}

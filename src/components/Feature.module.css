@@ -1,0 +1,46 @@
+.duotonepackageIcon {
+  width: 40px;
+  height: 40px;
+  position: relative;
+}
+.packageIcon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.deliveryIn24h,
+.fastedDelivery {
+  position: relative;
+  line-height: 20px;
+}
+.fastedDelivery {
+  align-self: stretch;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.deliveryIn24h {
+  color: var(--gray-600);
+}
+.feature,
+.info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.feature {
+  background-color: var(--gray-00);
+  flex-direction: row;
+  padding: var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-base);
+  min-width: 182px;
+  text-align: left;
+  font-size: var(--body-small-400-size);
+  color: var(--gray-900);
+  font-family: var(--body-small-400);
+}

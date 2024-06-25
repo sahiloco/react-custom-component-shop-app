@@ -1,0 +1,654 @@
+.billingInformation {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+}
+.emailAddress {
+  width: 68px;
+  border: 0;
+  outline: 0;
+  font-family: var(--body-small-400);
+  font-size: var(--body-small-400-size);
+  background-color: transparent;
+  height: 20px;
+  position: relative;
+  line-height: 20px;
+  color: var(--gray-500);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+}
+.inputField {
+  position: absolute;
+  top: 28px;
+  left: 222px;
+  border-radius: var(--br-11xs);
+  background-color: var(--gray-00);
+  border: 1px solid var(--gray-100);
+  box-sizing: border-box;
+  width: 206px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-base);
+}
+.optional {
+  color: var(--gray-400);
+}
+.companyNameOptionalContainer {
+  align-self: stretch;
+  position: relative;
+  line-height: 20px;
+}
+.inputField1 {
+  border: 1px solid var(--gray-100);
+  outline: 0;
+  background-color: var(--gray-00);
+  align-self: stretch;
+  height: 44px;
+  position: relative;
+  border-radius: var(--br-11xs);
+  box-sizing: border-box;
+  padding: var(--padding-sm) var(--padding-xl);
+  min-width: 250px;
+}
+.companyNameContainer {
+  position: absolute;
+  top: 0;
+  left: 444px;
+  width: 428px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.emailAddress1,
+.userName {
+  width: 206px;
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+}
+.emailAddress1 {
+  width: 70px;
+  border: 0;
+  outline: 0;
+  font-family: var(--body-small-400);
+  font-size: var(--body-small-400-size);
+  background-color: transparent;
+  height: 20px;
+  color: var(--gray-500);
+  text-align: left;
+  padding: 0;
+}
+.inputField2 {
+  width: 206px;
+  border-radius: var(--br-11xs);
+  background-color: var(--gray-00);
+  border: 1px solid var(--gray-100);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-base);
+}
+.address {
+  align-self: stretch;
+  position: relative;
+  line-height: 20px;
+}
+.userNameAddress,
+.userNameAddressInputs {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.userNameAddressInputs {
+  align-self: stretch;
+  gap: var(--gap-base);
+}
+.userNameAddress {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+  height: 100%;
+}
+.emailCompanyInner,
+.inputField3 {
+  align-self: stretch;
+  position: relative;
+}
+.emailCompanyInner {
+  height: 108px;
+  max-width: 100%;
+}
+.inputField3 {
+  border: 1px solid var(--gray-100);
+  outline: 0;
+  background-color: var(--gray-00);
+  height: 44px;
+  border-radius: var(--br-11xs);
+  box-sizing: border-box;
+  padding: var(--padding-sm) var(--padding-xl);
+  min-width: 250px;
+}
+.emailCompany {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.inputField4,
+.zipCode {
+  align-self: stretch;
+  position: relative;
+}
+.zipCode {
+  line-height: 20px;
+}
+.inputField4 {
+  border: 1px solid var(--gray-100);
+  outline: 0;
+  background-color: var(--gray-00);
+  height: 44px;
+  border-radius: var(--br-11xs);
+  box-sizing: border-box;
+  padding: var(--padding-sm) var(--padding-xl);
+  min-width: 124px;
+}
+.countryZip,
+.countryZipDropdowns {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.countryZipDropdowns {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-5xs);
+  min-width: 190px;
+  max-width: 206px;
+}
+.countryZip {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-base);
+}
+.email {
+  align-self: stretch;
+  position: relative;
+  line-height: 20px;
+}
+.fromElements,
+.inputField5 {
+  position: relative;
+  border-radius: var(--br-11xs);
+  box-sizing: border-box;
+}
+.inputField5 {
+  border: 1px solid var(--gray-100);
+  outline: 0;
+  background-color: var(--gray-00);
+  align-self: stretch;
+  height: 44px;
+  padding: var(--padding-sm) var(--padding-xl);
+  min-width: 250px;
+}
+.fromElements {
+  margin: 0;
+  height: 20px;
+  width: 20px;
+  border: 1px solid var(--gray-200);
+}
+.shipIntoDifferent {
+  position: relative;
+  line-height: 20px;
+}
+.emailContainer,
+.fromElementsShip,
+.inputFieldParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.fromElementsShip {
+  flex-direction: row;
+  gap: var(--gap-xs);
+}
+.emailContainer,
+.inputFieldParent {
+  flex-direction: column;
+}
+.inputFieldParent {
+  align-self: stretch;
+  gap: var(--gap-5xl);
+  color: var(--gray-700);
+}
+.emailContainer {
+  flex: 1;
+  gap: var(--gap-5xs);
+  min-width: 278px;
+  max-width: 100%;
+}
+.inputField6,
+.phoneNumber {
+  align-self: stretch;
+  position: relative;
+}
+.phoneNumber {
+  line-height: 20px;
+}
+.inputField6 {
+  border: 1px solid var(--gray-100);
+  outline: 0;
+  background-color: var(--gray-00);
+  height: 44px;
+  border-radius: var(--br-11xs);
+  box-sizing: border-box;
+  padding: var(--padding-sm) var(--padding-xl);
+  min-width: 250px;
+}
+.billingFieldsInner,
+.billingInputs,
+.emailPhoneNumber,
+.phoneNumberContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.phoneNumberContainer {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-5xs);
+  min-width: 278px;
+}
+.billingFieldsInner,
+.billingInputs,
+.emailPhoneNumber {
+  align-self: stretch;
+}
+.emailPhoneNumber {
+  flex-direction: row;
+  gap: var(--gap-base);
+}
+.billingFieldsInner,
+.billingInputs {
+  flex-direction: column;
+}
+.billingInputs {
+  gap: var(--gap-base);
+  font-size: var(--body-small-400-size);
+}
+.billingFieldsInner {
+  gap: var(--gap-5xl);
+}
+.paymentOption {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+}
+.paymentOptionsLabel {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-13xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.paymentMethodItems,
+.paymentMethodItems1,
+.paymentMethodItems2,
+.paymentMethodItems3 {
+  height: 97px;
+  width: 1px;
+  position: relative;
+  border-right: 1px solid var(--gray-100);
+  box-sizing: border-box;
+}
+.duotonecreditcardIcon {
+  height: 32px;
+  width: 32px;
+  position: relative;
+}
+.duotonecreditcardWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-45xl);
+}
+.debidcreditCard {
+  align-self: stretch;
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.image11Icon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  object-fit: cover;
+}
+.image11Wrapper {
+  flex-direction: row;
+  padding: 0 var(--padding-51xl);
+}
+.image11Wrapper,
+.paymentHeading,
+.paymentMethodItems4,
+.paymentOption1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.paymentMethodItems4 {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-base);
+  min-width: 104px;
+}
+.paymentHeading,
+.paymentOption1 {
+  align-self: stretch;
+}
+.paymentOption1 {
+  background-color: var(--gray-00);
+  border: 1px solid var(--gray-100);
+  flex-direction: row;
+  padding: var(--padding-3xl) var(--padding-4xl);
+  gap: var(--gap-10xs-5);
+  text-align: center;
+  font-size: var(--body-small-400-size);
+}
+.paymentHeading {
+  flex-direction: column;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.inputField7,
+.nameOnCard {
+  align-self: stretch;
+  position: relative;
+}
+.nameOnCard {
+  line-height: 20px;
+}
+.inputField7 {
+  border: 1px solid var(--gray-100);
+  outline: 0;
+  background-color: var(--gray-00);
+  height: 44px;
+  border-radius: var(--br-11xs);
+  box-sizing: border-box;
+  padding: var(--padding-sm) var(--padding-xl);
+  min-width: 250px;
+}
+.nameNumberExpiry {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.cardNumber,
+.inputField8 {
+  align-self: stretch;
+  position: relative;
+}
+.cardNumber {
+  line-height: 20px;
+}
+.inputField8 {
+  border: 1px solid var(--gray-100);
+  outline: 0;
+  background-color: var(--gray-00);
+  height: 44px;
+  border-radius: var(--br-11xs);
+  box-sizing: border-box;
+  padding: var(--padding-sm) var(--padding-xl);
+  min-width: 250px;
+}
+.nameNumberExpiry1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.emailAddress2,
+.expireDate {
+  position: relative;
+  line-height: 20px;
+}
+.expireDate {
+  align-self: stretch;
+}
+.emailAddress2 {
+  width: 42px;
+  border: 0;
+  outline: 0;
+  font-family: var(--body-small-400);
+  font-size: var(--body-small-400-size);
+  background-color: transparent;
+  height: 20px;
+  color: var(--gray-500);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+}
+.expireDateParent,
+.inputField9 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.inputField9 {
+  align-self: stretch;
+  border-radius: var(--br-11xs);
+  background-color: var(--gray-00);
+  border: 1px solid var(--gray-100);
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-base);
+}
+.expireDateParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-5xs);
+  min-width: 257px;
+  max-width: 100%;
+}
+.cvc,
+.inputField10 {
+  align-self: stretch;
+  position: relative;
+}
+.cvc {
+  line-height: 20px;
+}
+.inputField10 {
+  border: 1px solid var(--gray-100);
+  outline: 0;
+  background-color: var(--gray-00);
+  height: 44px;
+  border-radius: var(--br-11xs);
+  box-sizing: border-box;
+  padding: var(--padding-sm) var(--padding-xl);
+  min-width: 238px;
+}
+.cvcParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  min-width: 257px;
+  max-width: 100%;
+}
+.nameNumberExpiry2 {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-base);
+}
+.cardDetailsInputFields,
+.nameNumberExpiry2,
+.paymentCardDetails,
+.paymentHeadingParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.cardDetailsInputFields {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-base);
+}
+.paymentCardDetails,
+.paymentHeadingParent {
+  align-self: stretch;
+  box-sizing: border-box;
+}
+.paymentCardDetails {
+  flex-direction: row;
+  padding: 0 var(--padding-13xl);
+  font-size: var(--body-small-400-size);
+}
+.paymentHeadingParent {
+  border-radius: var(--br-9xs);
+  background-color: var(--gray-00);
+  border: 1px solid var(--gray-100);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-lg) 0 var(--padding-11xl);
+  gap: var(--gap-13xl);
+}
+.additionalInformation {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+}
+.optional1 {
+  color: var(--gray-500);
+}
+.orderNotesOptionalContainer {
+  align-self: stretch;
+  position: relative;
+  line-height: 20px;
+}
+.emailAddress3 {
+  width: 345px;
+  border: 0;
+  outline: 0;
+  font-family: var(--body-small-400);
+  font-size: var(--body-small-400-size);
+  background-color: transparent;
+  height: 20px;
+  position: relative;
+  line-height: 20px;
+  color: var(--gray-400);
+  text-align: left;
+  display: inline-block;
+  max-width: 100%;
+  padding: 0;
+}
+.inputField11 {
+  align-self: stretch;
+  border-radius: var(--br-11xs);
+  background-color: var(--gray-00);
+  border: 1px solid var(--gray-100);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-base) var(--padding-71xl);
+  max-width: 100%;
+}
+.orderNotes {
+  align-self: stretch;
+  gap: var(--gap-5xs);
+  font-size: var(--body-small-400-size);
+}
+.additionalInformationParent,
+.billingFields,
+.orderNotes {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.additionalInformationParent {
+  align-self: stretch;
+  gap: var(--gap-5xl);
+}
+.billingFields {
+  flex: 1;
+  gap: var(--gap-21xl);
+  text-align: left;
+  font-size: var(--body-large-500-size);
+  color: var(--gray-900);
+  font-family: var(--body-small-400);
+}
+@media screen and (max-width: 800px) {
+  .countryZip,
+  .emailPhoneNumber {
+    flex-wrap: wrap;
+  }
+  .paymentMethodItems,
+  .paymentMethodItems1,
+  .paymentMethodItems2,
+  .paymentMethodItems3 {
+    width: 100%;
+    height: 1px;
+  }
+  .nameNumberExpiry2,
+  .paymentOption1 {
+    flex-wrap: wrap;
+  }
+  .paymentHeadingParent {
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .billingFields {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .paymentHeadingParent {
+    gap: var(--gap-base);
+  }
+  .billingFields {
+    gap: var(--gap-xl);
+  }
+}
