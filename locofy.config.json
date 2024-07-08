@@ -1,0 +1,18 @@
+{
+  "components": [
+    "./src/components/Banner.tsx",
+    "./src/components/Footer.tsx",
+    "./src/components/Row.tsx",
+    "./src/components/Widget.tsx",
+    "./src/components/Popup.tsx",
+    "./src/components/Widget2.tsx",
+    "./src/components/Pagination.tsx",
+    "./src/components/Widget3.tsx",
+    "./src/components/PortalPopup.tsx",
+    "./src/components/SuccessMessage.tsx",
+    "./src/components/Feature.tsx",
+    "./src/components/Breadcrumb.tsx"
+  ],
+  "projectId": "668b6ec79907cc62160dc139",
+  "projectName": "custom-component test"
+}
