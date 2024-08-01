@@ -1,15 +1,5 @@
 {
   "components": [
-    "./src/components/Banner.tsx",
-    "./src/components/Footer.tsx",
-    "./src/components/Row.tsx",
-    "./src/components/Widget.tsx",
-    "./src/components/Widget2.tsx",
-    "./src/components/Pagination.tsx",
-    "./src/components/Widget3.tsx",
-    "./src/components/Feature.tsx",
-    "./src/components/Breadcrumb.tsx"
-  ],
-  "projectId": "669f3c46b11bf6bd085a006c",
-  "projectName": "test"
+    "./src/components/Popup.tsx"
+  ]
 }
